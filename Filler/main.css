@@ -1,0 +1,179 @@
+body{
+    background: url(http://www.oceankey.com/img/home/home_04.jpg);
+    background-size: cover;
+}
+
+
+/*Margin regler*/
+.margin-bottom-15px{
+    margin-bottom: 15px;
+}
+
+.margin-top-52px{
+    margin-top: 52px;
+}
+
+.margin-bottom-52px{
+    margin-bottom: 52px;
+}
+
+.margin-left-2-procent{
+    margin-left: 2%;
+}
+
+.margin-right-2-procent{
+    margin-right: 2%;
+}
+
+
+/*Paddin regler*/
+.padding-left-15-procent{
+    padding-left: 15%;
+}
+
+.padding-left-25-procent{
+    padding-left: 25%; 
+}
+
+.padding-right-15-procent{
+    padding-right: 15%;
+}
+
+.padding-right-25-procent{
+    padding-right: 25%; 
+}
+
+.padding-all-25px{
+    padding: 25px;
+}
+
+.padding-all-40px{
+    padding: 40px;
+}
+
+
+/*Border regler*/
+.border-dark-width10px-radius10px{
+    border-style: solid;
+    border-width: 10px;
+    border-color: #393B45;
+    border-radius: 10px;
+}
+
+.border-dark-width7px-inner{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 7px solid ;
+    color: #393B45;
+}
+
+.border-dark-width6px-radius-top-left-right{
+    border-bottom: 6px solid #393B45;
+    border-left: 6px solid #393B45;
+    border-right: 6px solid #393B45;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.border-grey-width6px-radius10px{
+    border-style: solid;
+    border-width: 6px;
+    border-color: #6E7889;
+    border-radius: 10px;
+}
+
+.border-grey-width6px{
+    border-style: solid;
+    border-width: 6px;
+    border-color: #6E7889;
+}
+
+.border-grey-width6px-right{
+    border-right: 6px solid #6E7889;
+}
+
+.border-white-width6px-left{
+    border-left: 6px solid #D8D9DE;
+}
+
+.border-white-width6px-radius10px{
+    border-style: solid;
+    border-width: 6px;
+    border-color: #D8D9DE;
+    border-radius: 10px;
+}
+
+.border-yellow-width6px-bottom-right{
+    border-right: 6px solid #F3B54A;
+    border-bottom: 3.5px solid #F3B54A;
+}
+
+
+/*Text regler*/
+label, p{
+    color: #584848;
+}
+
+h3, h4, h5, a{
+    color: #393B45;;
+}
+
+.textCenter{
+    text-align: center !important;
+}
+
+
+/*Background regler*/
+.backgroundDark{
+    background-color: #393B45;
+}
+
+.backgroundGrey{
+    background-color: #6E7889;
+}
+
+.backgroundWhite{
+    background-color: #D8D9DE;
+}
+
+
+/*Hover regler*/
+.link:hover{
+    color:#F3B54A !important;
+}
+
+.linkSize1:hover{
+    font-size: 125%;
+}
+
+
+/*Align regler*/
+.alignCenter{
+    text-align: center;
+}
+
+
+/*Modal regler*/
+.modalHorizontelCenterPosition{
+    top: 22% !important;
+}
+
+/*Bredd*/
+.bredd-95-procent{
+    width: 95%;
+}
+
+
+/* Icon when the collapsible content is shown */
+.a:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    float: right;
+    margin-left: 15px;
+}
+/* Icon when the collapsible content is hidden */
+.ab:after {
+    
+    content: "\e080";
+}

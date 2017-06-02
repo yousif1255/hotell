@@ -1,0 +1,227 @@
+<!doctype html> 
+<html lang="sw">
+    
+    <head>
+        <meta charset="utf-8">
+        
+        <title> Hotel ahla Malmö </title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- bootstrap.min.css -->
+        <link rel="stylesheet" href="Filler/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+
+        <!-- bootstrap-theme.min.css -->
+        <link rel="stylesheet" href="Filler/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css"/>
+        
+        <!-- main.css -->
+        <link rel="stylesheet" href="Filler/main.css"/>
+        
+    </head>
+    
+    <body>
+        
+        <!-- Navigation bar -->
+        <div class="container-fluid">
+            <nav class="navbar navbar-default navbar-static-top border-dark-width6px-radius-top-left-right">
+                <!-- Logo -->
+                <div class="navbar-header border-white-width6px-left border-grey-width6px-right">
+                    
+                    <!-- Toggle menu items -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                    </button>
+                    
+                    <p class="navbar-brand"> Hotel ahla Malmö </p>
+                </div>
+                     
+                <!-- Menu itemes -->
+                <div class="collapse navbar-collapse" id="mainNavBar">
+                    <ul class="nav navbar-nav">
+                        
+                        <li role="presentation"> 
+                            <a href="startsida.html" class="link"> Startsida </a> 
+                        </li>
+
+                        <li role="presentation"> 
+                            <a href="boka.html" class="link"> Boka </a> 
+                        </li>
+
+                        <li role="presentation" class="active border-yellow-width6px-bottom-right"> 
+                            <a href="kontakta.html"> Kontakta </a> 
+                        </li>
+
+                        <li role="presentation"> 
+                            <a href="hitta.html" class="link"> Hitta </a>
+                        </li>
+                        
+                        <li role="presentation">
+                            <a href="aktiviteter.html" class="link"> Aktiviteter </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+            </nav>
+        </div>
+            
+        <!-- Section -->
+        <div class="container">
+            <section class="well border-white-width6px-radius10px padding-all-40px">
+                <div class="row">
+                    
+                    <!-- Text -->
+                    <div class="col-md-6 col-md-push-6">
+                        <div class="panel panel-default margin-top-52px margin-bottom-52px">
+                            
+                            <!-- Du kan kontakta oss -->
+                            <div class="panel-body">
+                                <h4 class="textCenter">
+                                    Du kan kontakt oss på följande sätt
+                                </h4>
+                            </div>
+                            
+                            <ul class="list-group ul">
+                                <li class="list-group-item padding-left-25-procent">
+                                    <h5>
+                                        Epost address: ahlaHotelMalmö@hotmail.com
+                                    </h5>
+                                </li>
+
+                                <li class="list-group-item padding-left-25-procent">
+                                    <h5>
+                                        Telefonnummer: 040-45-673-3114
+                                    </h5>
+                                </li>
+                            </ul>
+                            
+                            <!-- Du kan följa oss -->
+                            <div class="panel-body">
+                                <h4 class="textCenter">
+                                    Du kan följa oss på facebook eller Instagram
+                                </h4>
+                            </div>
+                            
+                            <ul class="list-group ul">
+                                <li class="list-group-item padding-left-25-procent">
+                                        <h5>
+                                            Facebook: Hotel ahla Malmö
+                                        </h5>
+                                    </li>
+                                    
+                                <li class="list-group-item padding-left-25-procent">
+                                        <h5>
+                                            Instagram: Hotel_ahla-Malmö-040
+                                        </h5>
+                                    </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    
+                    <!-- Forms modal -->
+                    <div class="col-md-6 col-md-pull-6">
+                        
+                        <!-- Titel -->
+                        <h4 class="textCenter"> Du kan direkt skicka meddelande till oss</h4>
+                        
+                        <!-- Form modals -->
+                        <div class="border-grey-width6px-radius10px padding-all-25px backgroundWhite">
+                            <form>
+
+                                <!-- Text area -->
+                                <div class="form-group">
+                                    <label> Skriv här: </label>
+                                    <textarea class="form-control" rows="12"></textarea>
+                                </div>
+
+                                <!-- skicka -->
+                                <div class="padding-left-15-procent padding-right-15-procent">
+                                    <div class="btn-group btn-group-justified">
+                                        <a href="#" class="btn btn-default" data-toggle="modal" data-target="#Modal"> Skicka </a>
+                                    </div>
+                                </div>
+
+                                <!-- Modal -->
+                                <div id="Modal" class="modal fade" role="dialog">
+                                    <div class="modal-dialog modalHorizontelCenterPosition">
+
+                                        <!-- modal innehåll -->
+                                        <div class="modal-content">
+
+                                            <!-- modal header -->
+                                            <div class="modal-header">
+                                                <div class="row">
+                                                    <div class="col-xs-11">
+                                                        <h4 class="textCenter"> Logga in på Email för att skicka meddelanden </h4>
+                                                    </div>
+                                                    
+                                                    <div class="col-xs-1">
+                                                        <div class="alignCenter">
+                                                            <span class="glyphicon glyphicon-remove link linkSize1" aria-hidden="true" data-dismiss="modal"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+
+                                            <!-- modal body -->
+                                            <div class="modal-body">
+
+                                                <!-- Email address -->
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Email address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                                </div>
+
+                                                <!-- Lösenord -->
+                                                <div class="form-group">
+                                                    <label for="exampleInputPassword1"> Lösenord </label>
+                                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" Lösenord ">
+                                                </div>
+
+                                            </div>
+
+                                            <!-- modal footer -->
+                                            <div class="modal-footer">
+
+                                                <!-- Logga -->
+                                                <div class="padding-left-25-procent padding-right-25-procent">
+                                                    <div class="btn-group btn-group-justified">
+                                                        <a href="#" class="btn btn-default" data-dismiss="modal"> Logga in </a>
+                                                    </div>
+                                        
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            
+            <footer class="well backgroundWhite border-grey-width6px-radius10px">
+                <p class="textCenter"> Address: amiralsgatan 13 b</p>
+            </footer>
+        </div>
+        
+        <!-- The scripts -->
+        <div>
+            
+            <!-- jquery-3.2.1.min.js -->
+            <script src="Filler/jquery-3.2.1.min.js">
+            </script>
+            
+            <!-- bootstrap.min.js -->
+            <script src="Filler/bootstrap-3.3.7-dist/js/bootstrap.min.js">
+            </script>
+            
+        </div>  
+    </body>
+    
+</html>
